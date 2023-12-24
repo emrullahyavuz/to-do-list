@@ -1,0 +1,64 @@
+body {
+    background-color: indigo;
+}
+* {
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+form input {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+form ul {
+    width: 100%;
+    padding: 0;
+    
+}
+form ul li {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:coral;
+    margin-bottom: 10px; 
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+
+}
+
+form ul li svg {
+    cursor: pointer;
+   
+}
+
+.filtered {
+    display: none;
+}
